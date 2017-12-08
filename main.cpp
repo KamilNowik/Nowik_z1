@@ -57,12 +57,10 @@ int main()
     else if (liczba_b>=100 || liczba_b<=-100)
         cout << "Liczba b jest inna"<< endl;
 
-    float dwa=2;
-
     if((2*liczba_b)==0)
         cout << "Przykro mi, przez zero nie dzielimy :(" << endl;
     else
-       cout << liczba_a <<" : (2 * "<<liczba_b <<") = " << liczba_a/(dwa*liczba_b);
+       cout << liczba_a <<" : (2 * "<<liczba_b <<") = " << float(liczba_a)/(2*liczba_b);
 
 
     return 0;
