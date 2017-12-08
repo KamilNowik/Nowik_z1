@@ -58,7 +58,7 @@ int main()
         cout << "Liczba b jest inna"<< endl;
 
     if((2*liczba_b)==0)
-        cout << "Przykro mi, przez zero nie dzielimy :(" << endl;
+        cout << "Przykro mi, przez zero nie dzielimy!" << endl;
     else
        cout << liczba_a <<" : (2 * "<<liczba_b <<") = " << float(liczba_a)/(2*liczba_b);
 
