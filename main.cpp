@@ -8,7 +8,7 @@ int main()
 {
 
     string imie;
-    cout << "Podaj swe imie: "<<endl;
+    cout << "Podaj swoje imie: "<<endl;
     cin >> imie;
 
     char plec;
